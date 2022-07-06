@@ -45,6 +45,11 @@ h1 {
     padding-top: 100px;
 }
 
+.donate-now-title {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .donat-button {
     width: 80%;
     display: flex;
@@ -128,3 +133,35 @@ h1 {
 }
 
 /* donation-plan-section end  */
+
+/* newsletter form  :start  */
+#news-letter-form {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.subscriber-form {
+    background-color: rgb(238, 234, 218);
+    width: 50%;
+    padding: 5%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.email-form input {
+    background-color: #707070;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 250px;
+    padding: 9px;
+}
+
+.email-form button {
+    background-color: tomato;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+/* newsletter form  end  */
