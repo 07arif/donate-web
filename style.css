@@ -12,28 +12,79 @@ body {
 
 /* header section start  */
 #header-section {
-    background-image: url(images/cover1.jpg);
+    background-image: url(images/donation9.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 .header-top {
     text-align: center;
-    padding-top: 230px;
+    padding-top: 260px;
     color: white;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
-.rejester-btn {
+.donate-btn {
     background-color: tomato;
-    padding: 10px 35px;
+    padding: 15px 35px;
     border-radius: 5px;
     border: none;
     color: white;
     font-weight: 700;
+    font-size: 16px;
 }
 
 /* header section end */
+
+/* donations section start  */
+#donate-now {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.donat-button {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+
+}
+
+.donate-money {
+    width: 100px;
+    height: 100px;
+    background-color: #FAFAFA;
+    border: none;
+    color: #707070;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.active {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+
+}
+
+.donate-amount {
+    padding-bottom: 100px;
+}
+
+.donate-amount input {
+    width: 80%;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid tomato;
+
+}
+
+/* donations section end  */
