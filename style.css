@@ -153,15 +153,35 @@ h1 {
     border: none;
     border-radius: 5px 0px 0px 5px;
     width: 250px;
-    padding: 9px;
+    padding: 12px;
 }
 
 .email-form button {
     background-color: tomato;
-    padding: 10px 35px;
+    padding: 12px 35px;
     border: none;
     border-radius: 0px 5px 5px 0px;
     margin-left: -5px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+
 }
 
 /* newsletter form  end  */
+
+/* footer section start  */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.text-heighlight {
+    font-size: 30px;
+    color: tomato;
+}
+
+/* footer section end  */
