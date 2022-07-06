@@ -88,3 +88,43 @@ h1 {
 }
 
 /* donations section end  */
+
+/* donation-plan-section start  */
+#donation-plan-section {
+    padding-bottom: 100px;
+}
+
+.donate-plan-title {
+    text-align: center;
+}
+
+.donate-packages {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.packages-item-food {
+    width: 50%;
+    padding: 20px;
+    background-color: #fcebe4;
+    border-radius: 5px;
+}
+
+.packages-item-shelter {
+    width: 50%;
+    padding: 20px;
+    background-color: #f5ede2;
+    border-radius: 5px;
+}
+
+.packages-item-education {
+    width: 50%;
+    padding: 20px;
+    background-color: #e9eadd;
+    border-radius: 5px;
+}
+
+/* donation-plan-section end  */
