@@ -144,6 +144,10 @@ h1 {
 
 }
 
+.half-width h1 {
+    line-height: 50px;
+}
+
 .half-width {
     width: 50%;
 }
