@@ -141,7 +141,7 @@ h1 {
     width: 80%;
     justify-content: center;
     margin: 0 auto;
-    gap: 30px;
+
 }
 
 .half-width {
@@ -179,7 +179,7 @@ h1 {
 }
 
 .email-form input {
-    background-color: #707070;
+    background-color: #cfc6c6;
     border: none;
     border-radius: 5px 0px 0px 5px;
     width: 250px;
